@@ -91,6 +91,7 @@ class HtmlPdf {
         let browser;
         try {
             browser = await puppeteer_1.default.launch({
+                executablePath: process.env.PUPPETEER_EXECUTABLE_PATH || '/usr/bin/chromium-browser',
                 args: ['--no-sandbox', '--disable-setuid-sandbox'],
             });
             for (let itemIndex = 0; itemIndex < items.length; itemIndex++) {
