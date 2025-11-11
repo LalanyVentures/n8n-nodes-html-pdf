@@ -3,6 +3,7 @@
     "nodeVersion": "1.0",
     "codexVersion": "1.0",
     "categories": ["Documents", "PDF", "Transform"],
+    "files": ["dist", "icons"],
     "resources": {
         "credentialDocumentation": [],
         "primaryDocumentation": [
