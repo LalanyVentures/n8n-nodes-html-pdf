@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="96" height="96" viewBox="0 0 96 96" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="g1" x1="20" y1="10" x2="76" y2="86" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FF6A00"/>
+      <stop offset="1" stop-color="#FF2D55"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Document page -->
+  <rect x="16" y="10" width="52" height="76" rx="8" ry="8" fill="#FFFFFF" stroke="#202124" stroke-width="3"/>
+  <rect x="16" y="26" width="52" height="2" fill="#E0E0E0"/>
+  <rect x="16" y="34" width="40" height="2" fill="#E0E0E0"/>
+  <rect x="16" y="42" width="36" height="2" fill="#E0E0E0"/>
+
+  <!-- PDF ribbon -->
+  <path d="M16 58h40c8 0 12 4 12 10s-4 10-12 10H16V58z" fill="url(#g1)"/>
+  <text x="24" y="74" font-size="16" font-family="Inter, Arial, Helvetica, sans-serif" font-weight="700" fill="#FFFFFF">PDF</text>
+
+  <!-- Arrow (transform idea) -->
+  <path d="M74 38l6 6-6 6" stroke="#202124" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M58 44h22" stroke="#202124" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- HTML5 shield -->
+  <path d="M66 12h16l-3 30-5 2-5-2-3-30z" fill="#E44D26"/>
+  <path d="M74 42l5-2 2-22H74v24z" fill="#F16529"/>
+  <path d="M70 20h8l-.3 3h-7.4L70 20zm.5 6h7l-.4 3.5-3.1 1.3-3.1-1.3L70.5 26z" fill="#FFFFFF"/>
+</svg>

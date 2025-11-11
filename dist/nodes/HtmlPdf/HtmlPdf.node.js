@@ -11,7 +11,7 @@ class HtmlPdf {
         this.description = {
             displayName: 'HTML to PDF',
             name: 'htmlPdf',
-            icon: { light: 'file:example.svg', dark: 'file:example.dark.svg' },
+            icon: { light: 'file:htmlpdf.svg', dark: 'file:htmlpdf.dark.svg' },
             group: ['transform'],
             version: 1,
             description: 'Convert HTML content to a PDF file (using Puppeteer)',
