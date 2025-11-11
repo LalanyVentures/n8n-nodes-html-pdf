@@ -37,6 +37,7 @@
 	},
 	"devDependencies": {
 		"@n8n/node-cli": "*",
+		"@types/puppeteer": "^5.4.7",
 		"eslint": "9.32.0",
 		"prettier": "3.6.2",
 		"release-it": "^19.0.4",
@@ -44,5 +45,8 @@
 	},
 	"peerDependencies": {
 		"n8n-workflow": "*"
+	},
+	"dependencies": {
+		"puppeteer": "^24.29.1"
 	}
 }
